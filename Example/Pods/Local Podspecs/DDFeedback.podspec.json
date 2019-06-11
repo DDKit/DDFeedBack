@@ -1,0 +1,22 @@
+{
+  "name": "DDFeedback",
+  "version": "0.1.0",
+  "summary": "A short description of DDFeedback.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/DuanChangHe/DDFeedback",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "DuanChangHe": "duanchanghe@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/DuanChangHe/DDFeedback.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "DDFeedback/Classes/**/*"
+}
