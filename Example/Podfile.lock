@@ -1,16 +1,35 @@
 PODS:
-  - DDFeedback (0.1.0)
+  - DDFeedback (0.1.1):
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - RxCocoa (5.0.0):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.0.0):
+    - RxSwift (~> 5)
+  - RxSwift (5.0.0)
 
 DEPENDENCIES:
   - DDFeedback (from `../`)
+  - RxCocoa
+  - RxSwift
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - RxCocoa
+    - RxRelay
+    - RxSwift
 
 EXTERNAL SOURCES:
   DDFeedback:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DDFeedback: 219582db53276778357433d33999003753ff80e8
+  DDFeedback: 0ae8265900b0a9f9f82048d005292f1f65b085f2
+  RxCocoa: fcf32050ac00d801f34a7f71d5e8e7f23026dcd8
+  RxRelay: 4f7409406a51a55cd88483f21ed898c234d60f18
+  RxSwift: 8b0671caa829a763bbce7271095859121cbd895f
 
-PODFILE CHECKSUM: 9938462c545b88465d57e55325986d25fd7a9147
+PODFILE CHECKSUM: b02838724118ae557fa67a3b72e37d469d3e25cd
 
 COCOAPODS: 1.7.1

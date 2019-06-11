@@ -1,8 +1,10 @@
 use_frameworks!
+platform :ios, '9.0'
 
 target 'DDFeedback_Example' do
   pod 'DDFeedback', :path => '../'
-
+  pod 'RxSwift'
+  pod 'RxCocoa'
   target 'DDFeedback_Tests' do
     inherit! :search_paths
 
