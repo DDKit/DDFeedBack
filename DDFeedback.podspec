@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
 s.name             = 'DDFeedback'
-s.version          = '0.1.1'
+s.version          = '1.0.0'
 s.summary          = 'DDFeedback 基于RxSwift和RxCocoa'
 
 s.description      = <<-DESC

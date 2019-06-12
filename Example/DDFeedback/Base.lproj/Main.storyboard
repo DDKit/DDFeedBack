@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -20,11 +20,47 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Ci-p5-xNZ">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="222.5"/>
+                                <state key="normal" title="add"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Blq-bf-EyJ">
+                                <rect key="frame" x="0.0" y="222.5" width="375" height="222"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NFl-fw-GeL">
+                                <rect key="frame" x="0.0" y="444.5" width="375" height="222.5"/>
+                                <state key="normal" title="cut"/>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Blq-bf-EyJ" secondAttribute="trailing" id="88D-SF-RpT"/>
+                            <constraint firstItem="NFl-fw-GeL" firstAttribute="top" secondItem="Blq-bf-EyJ" secondAttribute="bottom" id="BVN-sV-r8b"/>
+                            <constraint firstItem="Blq-bf-EyJ" firstAttribute="height" secondItem="4Ci-p5-xNZ" secondAttribute="height" id="C7H-zl-7oz"/>
+                            <constraint firstAttribute="trailing" secondItem="4Ci-p5-xNZ" secondAttribute="trailing" id="Kk3-FX-NYz"/>
+                            <constraint firstItem="NFl-fw-GeL" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="SYX-gG-QyP"/>
+                            <constraint firstItem="4Ci-p5-xNZ" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="SZV-gW-Xms"/>
+                            <constraint firstItem="NFl-fw-GeL" firstAttribute="height" secondItem="4Ci-p5-xNZ" secondAttribute="height" id="XAA-lS-7G9"/>
+                            <constraint firstAttribute="trailing" secondItem="NFl-fw-GeL" secondAttribute="trailing" id="bdC-1t-cC3"/>
+                            <constraint firstItem="Blq-bf-EyJ" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="j3D-5e-PJc"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="NFl-fw-GeL" secondAttribute="bottom" id="jIJ-I1-45q"/>
+                            <constraint firstItem="Blq-bf-EyJ" firstAttribute="top" secondItem="4Ci-p5-xNZ" secondAttribute="bottom" id="u7z-xr-YF9"/>
+                            <constraint firstItem="4Ci-p5-xNZ" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="wFL-bT-Ilv"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="addBtn" destination="4Ci-p5-xNZ" id="dSx-E0-GS0"/>
+                        <outlet property="cutBtn" destination="NFl-fw-GeL" id="EX1-B5-ump"/>
+                        <outlet property="showLabel" destination="Blq-bf-EyJ" id="b9U-fj-3ls"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-79.200000000000003" y="118.29085457271366"/>
         </scene>
     </scenes>
 </document>
