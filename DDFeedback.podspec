@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
 s.name             = 'DDFeedback'
-s.version          = '1.0.2'
+s.version          = '1.0.3'
 s.summary          = 'DDFeedback 基于RxSwift和RxCocoa'
 
 s.description      = <<-DESC
@@ -26,9 +26,7 @@ s.swift_version = '4.2'
 
 # s.public_header_files = 'Pod/Classes/**/*.h'
 # s.frameworks = 'UIKit', 'MapKit'
-# s.dependency 'AFNetworking', '~> 2.3'
-s.dependency 'RxSwift', '~> 5.0'
-s.dependency 'RxCocoa', '~> 5.0'
+s.dependency 'RxDataSources', '~> 4.0'
 
 end
 
