@@ -1,6 +1,6 @@
 {
   "name": "DDFeedback",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "summary": "DDFeedback 基于RxSwift和RxCocoa",
   "description": "基于RxSwift和RxCocoa，在RxFeedback的基础上根据使用习惯改变的",
   "homepage": "https://github.com/DDKit/DDFeedback",
@@ -13,20 +13,17 @@
   },
   "source": {
     "git": "https://github.com/DDKit/DDFeedback.git",
-    "tag": "1.0.0"
+    "tag": "1.0.4"
   },
   "platforms": {
     "ios": "8.0"
   },
   "source_files": "DDFeedback/Classes/**/*",
-  "swift_versions": "4.2",
+  "swift_versions": "5",
   "dependencies": {
-    "RxSwift": [
-      "~> 5.0"
-    ],
-    "RxCocoa": [
-      "~> 5.0"
+    "RxDataSources": [
+      "~> 4.0"
     ]
   },
-  "swift_version": "4.2"
+  "swift_version": "5"
 }

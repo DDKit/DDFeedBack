@@ -1,7 +1,6 @@
 PODS:
-  - DDFeedback (1.0.0):
-    - RxCocoa (~> 5.0)
-    - RxSwift (~> 5.0)
+  - DDFeedback (1.0.4):
+    - RxDataSources (~> 4.0)
   - Differentiator (4.0.1)
   - RxCocoa (5.0.0):
     - RxRelay (~> 5)
@@ -31,7 +30,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DDFeedback: 0efe3a3381932d79388c3e78a9756c7647c01757
+  DDFeedback: 055a621581af3bc18dd6f0a5c4be99dac69593d3
   Differentiator: 886080237d9f87f322641dedbc5be257061b0602
   RxCocoa: fcf32050ac00d801f34a7f71d5e8e7f23026dcd8
   RxDataSources: efee07fa4de48477eca0a4611e6d11e2da9c1114
@@ -40,4 +39,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: d6833a7398cb6e134f89ccab1026bd0a55d29539
 
-COCOAPODS: 1.7.1
+COCOAPODS: 1.7.2
