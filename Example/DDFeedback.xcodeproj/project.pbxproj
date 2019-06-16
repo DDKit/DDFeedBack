@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		0396047D09C56D72904CEE2E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		25E1B5F3ECBF0CF0B15CB1BD /* Pods-DDFeedback_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDFeedback_Tests.debug.xcconfig"; path = "Target Support Files/Pods-DDFeedback_Tests/Pods-DDFeedback_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		26CF67CA17A4848105D82B83 /* DDFeedback.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DDFeedback.podspec; path = ../DDFeedback.podspec; sourceTree = "<group>"; };
+		26CF67CA17A4848105D82B83 /* DDFeedback.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DDFeedback.podspec; path = ../DDFeedback.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		45F530825FB9D4CAAFB6030A /* Pods_DDFeedback_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DDFeedback_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		47E76301931D3D24525373EE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* DDFeedback_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDFeedback_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
