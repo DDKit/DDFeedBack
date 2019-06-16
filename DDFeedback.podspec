@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
 s.name             = 'DDFeedback'
-s.version          = '1.0.6'
+s.version          = '1.0.7'
 s.summary          = 'DDFeedback 基于RxSwift和RxCocoa'
 
 s.description      = <<-DESC
@@ -17,7 +17,7 @@ s.source           = { :git => 'https://github.com/DDKit/DDFeedback.git', :tag =
 
 s.ios.deployment_target = '8.0'
 s.source_files = 'DDFeedback/Classes/**/*'
-s.swift_version = '5'
+s.swift_version = '4.2'
 
 
 # s.resource_bundles = {
